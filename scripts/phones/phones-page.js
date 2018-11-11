@@ -72,7 +72,7 @@ export default class PhonesPage {
         this.filter.subscribe('search', (query) => {
             PhoneService.getPhones()
                 .then((phones) => {
-                    const parsedPhones = phones.filter(phone => phone.name.includes(query));
+                    const parsedPhones = phones.filter(phone => phone.name.toLowerCase().includes(query.toLowerCase()));
 
                     if (this.filter.sortQuery) {
                         parsedPhones.sort(this.sortByQuery(this.filter.sortQuery));
