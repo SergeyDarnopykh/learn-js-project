@@ -1,4 +1,4 @@
-const API_URL = 'https://sdarnopykh.github.io/learn-js-project';
+const API_URL = 'https://sergeydarnopykh.github.io/learn-js-project';
 // const API_URL = 'http://localhost:3000';
 
 const HttpService = {
