@@ -1,4 +1,4 @@
-const CLASS_HIDDEN = 'js-hidden';
+const CLASS_HIDDEN = 'hidden';
 
 export default class Component {
     constructor({ element }) {
